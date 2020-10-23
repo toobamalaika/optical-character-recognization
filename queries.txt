@@ -1,0 +1,16 @@
+CREATE DATABASE [IF NOT EXISTS] ocr_prototype;
+
+CREATE TABLE `ocr_files` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` varchar(80) NULL,
+  `flight_no` varchar(80) NULL,
+  `dated` varchar(255) NULL,
+  `seat_no` varchar(255) NULL,
+  `passport_no` varchar(255) NULL,
+  `cnic_poc` varchar(255) NULL,
+  `pk_addr` varchar(255) NULL,
+  `mobile` varchar(255) NULL,
+  `other_med_cond` varchar(255) NULL,
+  `date_signed` varchar(255) NULL,
+  `created_at` TIMESTAMP NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
