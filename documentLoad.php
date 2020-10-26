@@ -98,7 +98,7 @@ if (!empty($text)) {
 		// }
 	}
 	
-	// dd($data);
+	dd($data);
 }
 
 
@@ -121,7 +121,7 @@ if (!empty($text)) {
 
 	<div class="container">
 		<header class="header">
-		    <h1 id="title" class="text-center">Optical Character Recognization Form</h1>
+		    <h1 id="title" class="text-center"><a href="index.php" class="link-style">Optical Character Recognization Form</a></h1>
 		    <p id="description" class="description text-center">
 		      Thank you for taking the time to improve the platform
 		    </p>

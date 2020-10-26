@@ -283,3 +283,8 @@ button {
   border-radius: 2px;
   cursor: pointer;
 }
+.link-style , .link-style:hover , .link-style:active {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
